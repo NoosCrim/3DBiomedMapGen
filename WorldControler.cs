@@ -20,8 +20,8 @@ public class WorldControler : MonoBehaviour
         {
             World.Maps.Add(new Map(mapData));
         }
-        foreach (Map map in World.Maps)
-            map.Generate();
+        //foreach (Map map in World.Maps)
+        //    map.Generate();
     }
 
     
