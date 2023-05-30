@@ -1,9 +1,16 @@
 # 3DBiomedMapGen
 simple Unity3D script used to generate flat map divided into biomes. It's based on voronoi diagrams and perlin noise.
+
+![Screenshot 2023-05-30 201354](https://github.com/NoosCrim/3DBiomedMapGen/assets/133163547/3727229d-2efe-4807-bf32-156f5e9a07c5)
+![Screenshot 2023-05-30 201443](https://github.com/NoosCrim/3DBiomedMapGen/assets/133163547/2cae7155-97af-4f57-aec5-56d1643ef6e8)
+![Screenshot 2023-05-30 201458](https://github.com/NoosCrim/3DBiomedMapGen/assets/133163547/8e392fcb-d125-4109-855e-43fa6f9741f5)
+
+
 # How to use
 1. Copy and paste all the files into your project.
 2. Add the script to a GameObject on the scene.
-3. Set the settings.
+3. Set the settings.![Screenshot 2023-05-30 201458](https://github.com/NoosCrim/3DBiomedMapGen/assets/133163547/d4473029-1a5d-467b-a288-d978e8c45526)
+
 4. Call ```World.Maps[i].Generate()``` to generate i-th map you put in the settings.
 
 ![image](https://github.com/NoosCrim/3DBiomedMapGen/assets/133163547/fdfa80c3-c094-4c0f-a999-0c521d8c3f00)
